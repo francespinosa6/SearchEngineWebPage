@@ -1,0 +1,35 @@
+        /*HTML STYLING*/
+
+body{
+    background-color: #5F9EA0;
+}
+#navbar{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border-style:double;
+}
+.btn-style{
+    width:100px;
+    border: 1px;
+    font-size: 17px;
+}
+.font-title{
+    font-family: "Audiowide", sans-serif;
+}
+.font-style{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+        /*MEDIA QUERIES*/
+
+@media screen and (max-width: 770px){     /*when screen size max-width is 770px the following class is put in effect*/
+    .txt-center,#gif-container{
+        text-align: center;
+    }
+    
+}
+@media (max-width: 320px){             /*mobile size and below*/
+    .txt-center,#gif-container{
+        text-align: center;
+    }
+}
