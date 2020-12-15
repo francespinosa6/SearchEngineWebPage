@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Giphy Scavenger</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"/>   <!--Google fonts link -->
+  </head>
+  <body>
+    <div id="navbar" class="container-fluid bg-dark">      <!--Navbar container -->
+      <div class="row txt-center">
+        <div class="col-sm-12 col-md-6 col-lg-8 font-title">
+          <h1 style="font-size: 50px"><a style="text-decoration: none; color: #ADD8E6;" href="homePage.html">'GIF' Hunter</a></h1>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-8 txt-center">
+                <input id='search-request' class="form-control text-center" type="search" placeholder="Search">    <!--Search field -->
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-4 txt-center">
+                <button id="giphy-button" class="btn btn-danger btn-style font-style" type="submit">Search</button>  <!--button field -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="gif-container" class="container col-lg-12" style="padding-top: 1.5em">
+      <h2 class="text-center font-style" style="padding-top: 2em">                <!--Paragraph with webpage description -->
+        About Gif Hunter: </br></br>
+        The webpage is powered by GIPHY Developers. </br>
+        Thanks to their API key, we can use their Gifs library! </br>
+        Check them out at: <a href="https://developers.giphy.com/" target="_blank" style="text-decoration: none; color: #663399">https://developers.giphy.com</a>
+
+      </h2>
+    </div>
+  </body>
+</html>
