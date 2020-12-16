@@ -16,7 +16,7 @@ $( document ).ready(function() {
 
           let gif_results = '';
           for (let image of giphyResponse.data) {               //Looping the results, "appending them into the HTML"     
-            let images_result = `<img src=${image.images.original.url} class="col-sm-12 col-md-4 col-lg-2" />`  //Parsing data
+            let images_result = `<img src=${image.images.original.url} class="col-sm-12 col-md-4 col-lg-2" />` //Parsing data and adding boostrap grid structure
                 gif_results = gif_results + images_result;          
           }
           $('#gif-container').html(gif_results);    //Appending it to the HTML here
